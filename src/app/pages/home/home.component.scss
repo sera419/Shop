@@ -1,0 +1,135 @@
+.banner {
+    height: 600px;
+    background-position: center;
+    background-size:comparable($number1:1200 , $number2: 1200);
+}
+.carousel-item img {
+    height: 600px;
+    background-position: center;
+    background-size:comparable($number1:1200 , $number2: 1200);
+}
+//marquee
+
+.marquee{
+    background-color: rgb(249, 11, 178);
+    padding: 2px 2px;
+    
+}
+
+
+@keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+    100% {
+        --rotate: 360%;
+    }
+}
+
+
+.content{
+    top: 50%;
+    left: 12%;
+    position: absolute;
+}
+.content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content a {
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+
+}
+.content a:hover{
+    background-color : var(--primary-color);
+    color: #fff;
+}
+
+//step css
+.stepBox {
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepBox h1{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.stepBox p {
+    color: #fff;
+}
+.head {
+    color: var(--primary-color); 
+    font-weight:bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+.braidBox{
+    padding: 10px 5px;
+}
+.braidBox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.braidBox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    color:rgb(207, 3, 108);
+    font-weight: bold;
+}
+.braidBox p{
+    color: rgb(12, 9, 1);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.viewmorebtn {
+    text-decoration: none;
+    background-color: rgb(131, 120, 120);
+    color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+.viewmorebtn .bi {
+    padding: 10px 15px;
+    margin: 5px;
+}
+.viewmorebtn:hover{
+    background-color : var(--primary-color);
+    color: rgb(146, 199, 253);
+}
+
+@media screen and (max-width: 600px) 
+{
+    .banner {
+        height: 700px;
+    }
+    .stepBox{
+        padding-top: Opx;
+        padding-bottom: 5px;
+        margin: 5px 5px;
+    }
+
+}
+@media screen and (max-width: 991px) 
+{
+        .stepBox{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 5px 5px;
+    }
+
+}

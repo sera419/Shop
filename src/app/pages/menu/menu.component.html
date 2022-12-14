@@ -1,0 +1,17 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-4" *ngFor="let fd of clothesData">
+
+            <div class="braidBox">
+                <img src="{{fd.clothesImg}}">
+                <h1>{{fd.clothesName}}</h1>
+                <p>{{fd.clothesDescription}}</p>
+                <p>{{fd.clothesPrice}}</p>
+                <br>
+                <a class="buybtn" [routerLink]="['/menu', fd.id]">achetez &nbsp;<i class="bi bi-cart4"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

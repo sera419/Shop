@@ -1,0 +1,19 @@
+.navbar-light .navbar-nav .nav-link {
+    color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:rgb(255, 0, 221);
+    background-color: rgb(106, 0, 255);
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link.active-link {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link.active-link:hover{
+    background-color: goldenrod;
+    border-radius: 5px;
+}

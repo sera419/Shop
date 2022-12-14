@@ -1,0 +1,18 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-4" *ngFor="let fd of caleconData">
+
+            <div class="braidBox">
+                <img src="{{fd.caleconImg}}">
+                <h1>{{fd.caleconName}}</h1>
+                <p>{{fd.caleconDescription}}</p>
+                <p>{{fd.caleconPrice}}</p>
+                <br>
+                <a class="buybtn" [routerLink]="['/calecon', fd.id]">achetez &nbsp;<i class="bi bi-cart4"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
