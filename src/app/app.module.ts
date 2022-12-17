@@ -19,6 +19,9 @@ import { CaleconComponent } from './pages/calecon/calecon.component';
 import { CaleconPageComponent } from './calecon-page/calecon-page.component';
 import { PantalonComponent } from './page/pantalon/pantalon.component';
 import { PantalonPageComponent } from './pantalon-page/pantalon-page.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { ProductsComponent } from './pages/products/products.component';
+import { FilterPipe } from './sharePage/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { PantalonPageComponent } from './pantalon-page/pantalon-page.component';
     CaleconComponent,
     CaleconPageComponent,
     PantalonComponent,
-    PantalonPageComponent
+    PantalonPageComponent,
+    CartComponent,
+    ProductsComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

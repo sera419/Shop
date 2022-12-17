@@ -1,13 +1,20 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-im">
     <div class="container-fluid">
-      <a class="navbar-brand bg-secondary" routerLink="">JADE SHOPPING</a>
+      <a class="navbar-brand align-item-center d-flex" routerLink=""><i class="bi bi-bag-heart" style="color: rgb(254, 254, 5); width: 40px; font-size: 40px;"></i> <strong style="color: rgb(112, 240, 7); font-size: 40px;"> JADE-SHOPPING</strong></a>
+      <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)"  placeholder="Search" aria-label="Search">
+      <div class="fas fa-search search-icon"></div>
+      <button routerLink="cart" class="btn btn-outline-primary" type="submit">
+        <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+        <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+      </button>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]= "{exact:true}">La boutiques</a>
+            <a class="nav-link active" routerLink="product" routerLinkActive="active-link" [routerLinkActiveOptions]= "{exact:true}">Tous les produits</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" routerLink="menu" routerLinkActive="active-link" [routerLinkActiveOptions] = "{exact:true}">Notre Collection</a>

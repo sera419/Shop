@@ -86,77 +86,77 @@ export class OderDetailsService {
 
 calecon = [
 
-    {id:1,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867827/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.24_2_pnwjpb.jpg'
+    {"id":1,
+    "caleconName": 'C Douzaine',
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867827/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.24_2_pnwjpb.jpg"
   },
-    {id:2,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867899/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.26_1_sutkh2.jpg'
+    {"id":2,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867899/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.26_1_sutkh2.jpg"
   },
-    {id:3,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.26_2_ljk1ul.jpg'
+    {"id":3,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.26_2_ljk1ul.jpg"
   },
-    {id:4,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.26_ugkqhq.jpg'
+    {"id":4,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.26_ugkqhq.jpg"
   },
-    {id:5,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867828/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.25_1_dcmiz2.jpg'
+    {"id":5,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867828/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.25_1_dcmiz2.jpg"
   },
-    {id:6,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.29_kcmkgt.jpg'
+    {"id":6,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.29_kcmkgt.jpg"
   },
-    {id:7,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.29_3_y21ql3.jpg'
+    {"id":7,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867898/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.29_3_y21ql3.jpg"
   },
-    {id:8,
-    caleconName: 'C Lingerie',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867897/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.29_1_rbdmsf.jpg'
+    {"id":8,
+    "caleconName": "C Lingerie",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867897/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.29_1_rbdmsf.jpg"
   },
-    {id:9,
-    caleconName: 'C Lingerie',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867897/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.28_pesavy.jpg'
+    {"id":9,
+    "caleconName":"'C Lingerie",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867897/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.28_pesavy.jpg"
   },
-    {id:10,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867897/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.28_1_gyw3c2.jpg'
+    {"id":10,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867897/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.09.28_1_gyw3c2.jpg"
   },
-    {id:11,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867828/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.27_oqcz3f.jpg'
+    {"id":11,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867828/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.27_oqcz3f.jpg"
   },
-    {id:12,
-    caleconName: 'C Douzaine',
-    caleconDescription: 'Disponible en gros, livré partout au Cameroun',
-    caleconPrice: '6500 FCFA',
-    caleconImg: 'https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867828/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.25_rpb0og.jpg'
+    {"id":12,
+    "caleconName": "C Douzaine",
+    "caleconDescription": "Disponible en gros, livré partout au Cameroun",
+    "caleconPrice": "6500 FCFA",
+    "caleconImg": "https://res.cloudinary.com/dtdpx59sc/image/upload/v1670867828/samples/jade_picture/WhatsApp_Image_2022-10-16_at_19.08.25_rpb0og.jpg"
   },
 ];
 

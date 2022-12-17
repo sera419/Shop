@@ -80,7 +80,32 @@
     height: 250px;
     object-fit: cover;
     border-radius: 30px;
+    transition: 0.3s ease-in-out;
+    transition: var(--rotate);
 }
+.braidBox img:hover {
+    transition: 0.3 ease-in-out;
+    transform: scale(1.5);
+    color: rgb(88 199 250 / 100%);
+    transition: color .1s;
+}
+
+.braidBox img:hover:before, .braidBox img:hover:after {
+    animation:none;
+    opacity: 0;
+}
+.braidBox img::before {
+    animation: spin 2.5s linear infinite;
+}
+.braidBox img::after {
+    transform: scale(0.8);
+    filter: blur(cal(var(--card-height) / 6));
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+}
+
 .braidBox h1{
     font-size: 18px;
     margin-top: 20px;
@@ -118,9 +143,15 @@
         height: 700px;
     }
     .stepBox{
-        padding-top: Opx;
+        padding-top: 0px;
         padding-bottom: 5px;
         margin: 5px 5px;
+        transition: 0.3 ease-in-out;
+    }
+    .stepBox:hover
+    {
+        transition: 0.3 ease-in-out;
+        transform: scale(1.1);
     }
 
 }
