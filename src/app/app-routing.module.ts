@@ -11,9 +11,9 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { MenupagesComponent } from './pages/menupages/menupages.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { PantalonPageComponent } from './pantalon-page/pantalon-page.component';
-import { BraidsComponent } from './users/braids/braids.component';
-import { LoginComponent } from './users/login/login.component';
-import { SignupComponent } from './users/signup/signup.component';
+import { LoginComponent } from './registration/login/login.component';
+import { SignupComponent } from './registration/register/signup.component';
+
 
 const routes: Routes = [
   {path: "", component:HomeComponent},

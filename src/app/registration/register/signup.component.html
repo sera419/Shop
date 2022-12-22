@@ -1,0 +1,33 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5"> Welcome dear <br> customer, SignUp</h1>
+        <a routerLink="/menu" >Order Now<i class="bi bi-arrow-right-circle-fill"></i></a>
+    </div>
+</div>
+
+<!--form signup-->
+<div class="container-fluid">
+  <div class="row mt-5">
+      <div class="col">
+          <div class="col-4">
+              <div class="card">
+                  <div class="card-body">
+                      <form>
+                          <div class="mb-3">
+                              <h4 class="text-dark text-muted">s'enregister</h4>
+                          </div>
+                          <!--errmsg here-->
+                          <div class="mb-3">
+                              <label for="exampleInputEmail" class="form-label">Email</label>
+                              <input type="email" class="form-control" formControlName="email" [(ngModel)]="email" placeholder="email">
+                          </div>
+                          <div class="mb-3">
+                              <label for="exampleInputPassword" class="form-label">mot de pass</label>
+                              <input type="password" class="form-control" formControlName="password" [(ngModel)]="password"
+                                  placeholder="password">
+                          </div>
+                          <button type="button" class="btn btn-info" (click)="register()">enregister</button>
+                          <div class="row mt-3">
+                              <div class="col-md-6">
+                                  <a routerLink="/login" style="text-decoration: none;"><span class="text-danger">se connecter</span></a>
+                              </div>
