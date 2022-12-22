@@ -19,14 +19,10 @@ import { PantalonPageComponent } from './pantalon-page/pantalon-page.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { FilterPipe } from './sharePage/filter.pipe';
-import { LoginComponent } from './registration/login/login.component';
-import { SignupComponent } from './registration/register/signup.component';
-import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
-import { environment } from '../environments/environment';
-import { provideAuth,getAuth } from '@angular/fire/auth';
-import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { LoginComponent } from './component/login/login.component';
+import { RegisterComponent } from './component/register/register.component';
 import { AngularFireModule } from '@angular/fire/compat';
-
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -38,15 +34,15 @@ import { AngularFireModule } from '@angular/fire/compat';
     AboutComponent,
     ContactComponent,
     MenupagesComponent,
-    SignupComponent,
-    LoginComponent,
     CaleconComponent,
     CaleconPageComponent,
     PantalonComponent,
     PantalonPageComponent,
     CartComponent,
     ProductsComponent,
-    FilterPipe
+    FilterPipe,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,10 +50,7 @@ import { AngularFireModule } from '@angular/fire/compat';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AngularFireModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideAuth(() => getAuth()),
-    provideFirestore(() => getFirestore()),
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]

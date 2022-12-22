@@ -4,13 +4,13 @@
 
 export const environment = {
   production: false,
-  firebase : {
-    apiKey: "AIzaSyCQTKvDN8JXwTWo3HSvb_zIgyAQb9StFSw",
-    authDomain: "jade-fashion.firebaseapp.com",
-    projectId: "jade-fashion",
-    storageBucket: "jade-fashion.appspot.com",
-    messagingSenderId: "120506765687",
-    appId: "1:120506765687:web:c471a917398e4f1ea59172"
+  firebase: {
+    projectId: 'jade-fashion',
+    appId: '1:120506765687:web:c471a917398e4f1ea59172',
+    storageBucket: 'jade-fashion.appspot.com',
+    apiKey: 'AIzaSyCQTKvDN8JXwTWo3HSvb_zIgyAQb9StFSw',
+    authDomain: 'jade-fashion.firebaseapp.com',
+    messagingSenderId: '120506765687',
   }
 };
 

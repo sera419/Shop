@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CaleconPageComponent } from './calecon-page/calecon-page.component';
+import { LoginComponent } from './component/login/login.component';
+import { RegisterComponent } from './component/register/register.component';
 import { PantalonComponent } from './page/pantalon/pantalon.component';
 import { AboutComponent } from './pages/about/about.component';
 import { CaleconComponent } from './pages/calecon/calecon.component';
@@ -11,16 +13,14 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { MenupagesComponent } from './pages/menupages/menupages.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { PantalonPageComponent } from './pantalon-page/pantalon-page.component';
-import { LoginComponent } from './registration/login/login.component';
-import { SignupComponent } from './registration/register/signup.component';
-
 
 const routes: Routes = [
-  {path: "", component:HomeComponent},
+  {path: '', redirectTo:'login', pathMatch:'full'},
+  {path: "login", component:LoginComponent},
+  {path: "register", component:RegisterComponent},
+  {path: "home", component:HomeComponent},
   {path: "menu", component:MenuComponent},
   {path: "about", component:AboutComponent},
-  {path: "signup", component:SignupComponent},
-  {path: "login", component:LoginComponent},
   {path: "product", component:ProductsComponent},
   {path: "contact", component:ContactComponent},
   {path: "calecon", component:CaleconComponent},

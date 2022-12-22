@@ -10,9 +10,9 @@ export class AuthService {
   constructor(private fireAuth:AngularFireAuth, private router: Router) { }
   //login methode
   login(email: string, password: string){
-    this.fireAuth.signInWithEmailAndPassword(email, password).then(()=>{
+    this.fireAuth.signInWithEmailAndPassword(email,password).then(()=>{
       localStorage.setItem('token', 'true');
-      this.router.navigate(['product']);
+      this.router.navigate(['home']);
     }, (err: any) => {
       alert(err.message);
       this.router.navigate(['/login']);
@@ -21,12 +21,12 @@ export class AuthService {
 
   //register method
   register(email: string, password: string){
-    this.fireAuth.createUserWithEmailAndPassword(email, password).then(()=>{
+    this.fireAuth.createUserWithEmailAndPassword(email,password).then(()=>{
       alert('registration successfull')
       this.router.navigate(['/login'])
     }, (err:any) =>{
       alert(err.message);
-      this.router.navigate(['/signup'])
+      this.router.navigate(['/register'])
     })
   }
   //sign out 
