@@ -20,10 +20,10 @@
                     <button type="button" class="btn btn-info" (click)="login()">Login</button>
                     <div class="row">
                         <div class="col-md-6">
-                            <a href="" style="text-decoration: none;">créer un compte <span class="text-danger">Enregistrer</span></a>
+                            <a [routerLink]="['/register']"style="text-decoration: none;">créer un compte <span class="text-danger">Enregistrer</span></a>
                         </div>
                         <div class="col-md-6">
-                            <a href="" class="text-dark" style="text-decoration: none;">mot de passe oublié</a>
+                            <a class="text-dark" style="text-decoration: none;">mot de passe oublié</a>
                         </div>
                     </div>
                 </form>

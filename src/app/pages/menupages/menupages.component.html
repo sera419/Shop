@@ -5,13 +5,23 @@
     <div class="row">
         <div class="col-lg-6" *ngIf="menuData">
             <a routerLink="../../menu" class="btn btn-sm btn-dark mt-3">Back</a>
-            <img src="{{menuData[0].clothesImg}}" width="80%" />
-            <h1 class="m-3">{{menuData[0].clothesName}}</h1>
-            <p>{{menuData[0].clothesDescription}}</p>
-            <p>{{menuData[0].clothesPrice}}</p>
+            <div class="image-video-wrp">
+                <figure>
+                    <ng-container *ngIf="videodisabled; else videoblock">
+                        <img src="./assets/img/video-poster.jpg" class="img-fluid thumblin" width="80%">
+                    </ng-container>
+                    <ng-template #videoblock>
+                        <iframe width="100%" height="100%" src="{{menuData[0].clothesVideo}}" allowfullscreen>{{menuData[0].clothesVideo}}  </iframe>
+                    </ng-template>
+                    <div class="play-icon-box ">
+                        <img (click)="changeImg()" [title]="play" [src]="videoIcon" alt="">
+                    </div>
+                </figure>
+                <h1 class="m-3">{{menuData[0].clothesName}}</h1>
+                <p>{{menuData[0].clothesDescription}}</p>
+                <p>{{menuData[0].clothesPrice}}</p>
             <!---form-->
-            
-
+            </div>
         </div>
         <div class="col-lg-6 m-100">
                 <h1>Enter your Details</h1>

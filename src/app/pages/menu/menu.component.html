@@ -15,3 +15,21 @@
         </div>
     </div>
 </div>
+
+
+<div class="contain mt-3 pd-4" disabled>
+    <!--trending movie start-->
+
+    <div class="row">
+        <h5 class="text-white">Collection de Films A la une</h5>
+        <div class="rowposter mt-3 pd-2">
+            <ng-container *ngFor="let fd of clothesData">
+                <img src="{{fd.clothesImg}}" class="rowimg largeposter" alt="...">
+                <h1>{{fd.clothesName}}</h1>
+                <p>{{fd.clothesDescription}}</p>
+                <p>{{fd.clothesPrice}}</p>
+                <a class="buybtn" [routerLink]="['/menu', fd.id]">achetez &nbsp;<i class="bi bi-cart4"></i></a>
+            </ng-container>
+        </div>
+    </div>
+</div>

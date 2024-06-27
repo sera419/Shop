@@ -26,5 +26,24 @@ export class MenupagesComponent implements OnInit {
     }
 
   }
+  videoIcon:string = "./assets/img/play.png";
+  play:string = "Play";
+  videodisabled:boolean = true;
+
+  changeImg(){
+    if(this.play == "Play")
+    {
+      this.play = "Pause",
+      this.videoIcon = "/assets/img/pause.png",
+      this.videodisabled = false
+    }
+    else
+    {
+      this.videoIcon = "./assets/images/play.png",
+      this.play = "Play",
+      this.videodisabled = true
+    }
+  }
+
 
 }

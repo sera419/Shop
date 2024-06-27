@@ -13,6 +13,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { MenupagesComponent } from './pages/menupages/menupages.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { PantalonPageComponent } from './pantalon-page/pantalon-page.component';
+import { AddProductComponent } from './pages/add-product/add-product.component';
 
 const routes: Routes = [
   {path: '', redirectTo:'login', pathMatch:'full'},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: "product", component:ProductsComponent},
   {path: "contact", component:ContactComponent},
   {path: "calecon", component:CaleconComponent},
+  {path: "addProduct", component:AddProductComponent},
   {path: "pantalon", component:PantalonComponent},
   {path: "cart", component:CartComponent},
   {path:"menu/:id", component:MenupagesComponent},
