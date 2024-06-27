@@ -7,7 +7,7 @@ import { OderDetailsService } from 'src/app/service/oder-details.service';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-fd: any;
+
 
   constructor(private service:OderDetailsService){}
   
