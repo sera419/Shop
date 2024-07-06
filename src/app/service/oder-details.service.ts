@@ -8,6 +8,9 @@ export class OderDetailsService {
   }
 
   constructor() { }
+  "hairbraid":[
+    
+  ]
   "products":[
     {
         "id": 1,
