@@ -1,0 +1,15 @@
+FROM node:16-alpine3.11 as angular
+
+		WORKDIR /app
+
+		copy ..
+
+		RUN npm install
+
+		RUN npm run build
+
+		FROM https:alpine3.15
+
+		WORKDIR: /usr/local/appache2/htdocs
+
+		COPY --from=angular /app/dist/jade-shop

@@ -15,7 +15,7 @@
                         <label for="category">Category</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="price" name="price" [(ngModel)]="price">
+                        <input type="number" class="form-control" id="price" name="price" [(ngModel)]="price">
                         <label for="price">Price</label>
                     </div>
             
@@ -27,7 +27,7 @@
         <div class="col-md-8 mt-5">
              <h5 class="text-danger">Product List</h5>
              <div class="card p-3 shadow">
-                <table class="table table-hover">
+                <table class="table table-hover" *ngFor="let product of productsList">
                     <thead>
                       <tr>
                             <th scope="col">Name</th>
@@ -37,10 +37,10 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr *ngFor="let prod of productsList">
-                            <td>{{prod.name}}</td>
-                            <td>{{prod.category}}</td>
-                            <td>{{prod.price}}</td>
+                      <tr >
+                            <td>{{product.name}}</td>
+                            <td>{{product.category}}</td>
+                            <td>{{product.price}}</td>
                             <td>
                                 <button class="btn btn-outline-danger" (click="deleteProduct(product)")>Delete</button>
                             </td>

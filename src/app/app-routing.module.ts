@@ -14,11 +14,13 @@ import { MenupagesComponent } from './pages/menupages/menupages.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { PantalonPageComponent } from './pantalon-page/pantalon-page.component';
 import { AddProductComponent } from './pages/add-product/add-product.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 const routes: Routes = [
   {path: '', redirectTo:'login', pathMatch:'full'},
   {path: "login", component:LoginComponent},
   {path: "register", component:RegisterComponent},
+  {path: "dashboard", component: DashboardComponent},
   {path: "home", component:HomeComponent},
   {path: "menu", component:MenuComponent},
   {path: "about", component:AboutComponent},
